@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+    justify-content: center;
+    background-color: rgb(238, 236, 236);
+}
+
+.div1 {
+    border-radius: 10px;
+    align-self: center;
+    margin: 5px;
+    width: 906px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.div2 {
+    display: inline-block;
+    align-self: center;
+    border-radius: 10px;
+    margin: 5px;
+    width: 446px;
+    height: 100px;
+    background-color: green;
+}
+
+.div3 {
+    display: inline-block;
+    align-self: center;
+    border-radius: 10px;
+    margin: 5px;
+    width: 216px;
+    height: 100px;
+    background-color: blue;
+}
+
+.div4 {
+    align-self: center;
+}
